@@ -1,0 +1,5 @@
+n = input('Digite algo\n>>')
+print('Qual tipo de varivel "n" é ', type(n))
+print('O "n" é algo capaz de imprimir ? ', n.isprintable())
+print('O "n" esta todo em minusculo ? ', n.islower())
+print('O "n" é numerico ? ', n.isnumeric())
