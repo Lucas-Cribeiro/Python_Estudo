@@ -11,7 +11,7 @@ else:
         print(f'IDADE: {idade}\nCATEGORIA: INFANTIL')
     elif idade > 14 and idade <= 19:
         print(f'IDADE: {idade}\nCATEGORIA: JUNIOR')
-    elif idade == 20:
+    elif idade <= 25:
         print(f'IDADE: {idade}\nCATEGORIA: SENIOR')
     else:
         print(f'IDADE: {idade}\nCATEGORIA: MASTER')
