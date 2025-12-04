@@ -1,0 +1,9 @@
+num = int(input('Insira o seu numero de 0 a 9999\n>>'))
+milhar = num // 1000
+centena = num % 1000 // 100
+dezena = num % 100 // 10
+unidade = num % 10
+print(f'Unidade = {unidade}')
+print(f'Dezena = {dezena}')
+print(f'Centena = {centena}')
+print(f'Milhar = {milhar}')
