@@ -6,6 +6,11 @@ while jogar == 1:
     if jogador_1 > 3 or jogador_1 < 1:
         print('Escolha inválida. Escolha dentre as opções possiveis.')
         continue
+    print('JO')
+    sleep(0.8)
+    print('Ken')
+    sleep(0.8)
+    print('PO')
     if jogador_1 == 1:
         escolha_jogador = 'Pedra' 
     elif jogador_1 == 2:
