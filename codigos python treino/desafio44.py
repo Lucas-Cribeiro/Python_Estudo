@@ -13,7 +13,9 @@ elif forma_pagamento == 2:
         vezes = int(input('Quantas vezes irá dividir ? \n>> '))
         if vezes == 2:
             valor_final = valor_produto
+            print(f'Sua compra ficou divida em 2 parcelas de R${valor_final / 2:.2f}')
         elif vezes > 2:
             juros = valor_produto * 0.20
             valor_final = valor_produto + juros
-print(f'O valor a pagar ficou = R${valor_final}')
+            print(f'Sua compra ficou divida em {vezes} parcelas de R${valor_final / vezes:.2f}')
+print(f'O valor total a pagar ficou = R${valor_final:.2f}')
