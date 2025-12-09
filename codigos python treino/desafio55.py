@@ -21,8 +21,6 @@ for i in range(4):
     if peso_atual < menor_peso:
         menor_peso = peso_atual
         pessoa_mais_leve = pessoa_atual
-
-
 print(
     f'A pessoa mais pesada foi a {pessoa_mais_pesada}° pesando {maior_peso}kg.')
 print(
